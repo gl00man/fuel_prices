@@ -4,8 +4,8 @@ import requests
 
 stacje = ["Orlen Postępu 16", "Orlen Wołowska", "Shell Al.Wilanowska"]
 stacje_url = ["https://pl.fuelo.net/gasstation/id/33683?lang=en", "https://pl.fuelo.net/gasstation/id/32483?lang=en", "https://pl.fuelo.net/gasstation/id/35494?lang=en"]
-rodzaje_paliw_orlen = ["EFFECTA 95","EFFECTA DIESEL", "LPG", "VERVA98", "VERVA ON" ]
-rodzaje_paliw_shell = ["FuelSave 95", "FuelSave Diesel", "V-Power Nitro+ Racing", "V-Power Nitro+ Diesel"]
+fuel_type = []
+fuel_price = []
 
 #stacja_1
 for i in range(len(stacje)):
@@ -17,17 +17,25 @@ for i in range(len(stacje)):
 
      page_soup = soup(page_html, "html.parser")
 
-     con = page_soup.findAll("span", {"itemprop" : "price"})
+     fuel_name = page_soup.findAll("td", {"itemprop":"name"})
+     price = page_soup.findAll("span", {"itemprop" : "price"})
+     
      print("")
      print(stacje[i])
      print()
-     i = 0
-     for p in con:
-          a = p.text
-          if(i == 2):
-               print(rodzaje_paliw_shell[i], ": ", a.strip())
-          else: 
-               print(rodzaje_paliw_orlen[i], ": ", a.strip())
+     for pr in price:
+          f_price = pr.text
+          f_price = f_price.strip()
+          fuel_price.append(f_price)
           
-          i = i + 1
+          
+     for nm in fuel_name:
+          f_name = nm.text
+          fuel_type.append(f_name)
+
+     for i in range(len(fuel_type)):
+          print(fuel_type[i], ": ",fuel_price[i])
+     fuel_type = []
+     fuel_price = []
+
 

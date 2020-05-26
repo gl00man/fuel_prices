@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "fuelprices-278314",
+  "private_key_id": "c283aadf95f7c0d81ae6490dee3fa432741f4ee2",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCfIJHuVXTcSw1U\n2x9WpgwvIyG/2boI6sYcClHx5mmRXH+6gy7gdrkdkCvBp8mYCII5p1gqVqvQoJeW\njguvhUk61ligv/fm3Pado92EzV7EKk423b+CgT8O0nuC5uFQxqrX3CFQKfx3mjO7\n94tkrbdls9JGLZdeaOJZxhikNzQ5dUpiEOA/Y3TCJBr0jMSvvJzA1a45ILJxF28Q\nSWyQjhYL3dGMLTl5D9yr9tVDw7CeTSDWLqDAIWZSxYmNAqdkm+GYbCbCMAfH9Og2\nXSI3/0v26J9I9Vd7u8zkUsqZUZ0ljoEXjIJDsGPE9CiQ+VG1Yv2Efm74laylphTa\nt8aCWu8LAgMBAAECggEAO0KfZiFYHGQs6lGSWawL9JACVRbKA+Ee9zlWrB4RaYuH\nm9eX4QsFxH849G0+k8pzaPIr0NSnNtJfsbdjnbGnBGzn47GqKkVW6H0qlXcAGFDj\nAObTF9B3QddcHPNLrM/XtvzpQRfpyEbahmFZfZx+JLdzkyQOb5/iz+kIqztNzSmN\nFmHgS44K03dxzNVKyogBMJu4atzdXqnCRTGLJnH3KmKGFhjM756mJWE1bWpDNNQS\n565ZeyS0ghFGl7Sav1vXgPT5hecOnWdpGc2ZaLAPhNI99UKQku308FT/znXfZzgy\nuOrJFVkJzErm04HPlIKNvDPxe2bmbHnzfpzSwfNHmQKBgQDTLXbbbua8COmKJ6iG\nq4fRfa/YhSaUaXfMUwy8pQKlPaGp9KkG5CMPP0okPXKgI1AO/iCmCLuRx9f9bahy\nqLaHUO4rCMjtzMK7gxj18E3RM11t9jlgoNJMWMYR8C0G6uZ/o1+MulwQrS3owhW5\nMTbhmWdLurL78zaUA4IC8w6veQKBgQDA5uZBnVrf8nWO6ieqD3EtSUDarIg4T0h7\ntHGoh9x2OuDOYa7IWZJyhBZq4Mz8ScK85WOCog+pVJImUlOurKDS+9Br//d6Lnyq\n4Xvoym8Q87OGdQslxcQVfxrqBGU6DlV6kF64Dxgt18oTlQvEi7kVgcCswRgAn+MW\nVFB4ZISdowKBgGk6wXxs0dsnEcC/LFIXDXHNkJ9zEhtoRsLxK2qhSyUuBe3btZJy\nginp3rcaS5ESp6Ug6wHxXg4xqCZny0V/Xp0lLdkR4pXkr7CijgCXgx9Y2hieVk8Z\nNFHI9sIfjUBiMwOtVEKa5p+EvFi8xfhnVrKqL3fkC6ZStoKhENsJZOr5AoGAZB90\no9nosRRHsEYZEEuzkq3S261xhsif9pVR6QebhkJJLNXGwna7bHTirdbAjrI6QZFO\ndR9owZsDwKA6jw9K6jeJloTlDqXST1950PpBa6sSI1fc0V40yHOQpKZjZB7MfzEv\n+JjdE+5NFJzn3rwm9OLD/ua6bpiOZaidm9+QdcECgYAQCt2sqTAqtwOV+Al4MwUX\nIPL1VA+sCQxYvPO614gW6OxCNaic5/ajZ5AvRe/jVT39I3S+vz6Jv5cb2dF6R2Um\n5uMcZ8kCGyRjyI4b9FgGnjXH316gTg/vluabLzokYB++lKbZXwE7JYnBGHHlYt7n\n3BRtm4XbArRu3ThKjPKghw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "fuelprices@fuelprices-278314.iam.gserviceaccount.com",
+  "client_id": "112946440534446958562",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/fuelprices%40fuelprices-278314.iam.gserviceaccount.com"
+}
